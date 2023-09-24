@@ -12,7 +12,7 @@ deliveries_df = pd.read_csv("deliveries.csv")
 warehouses_df = pd.read_csv("warehouses.csv")
 
 # Initialize the Google Maps client with your API key
-gmaps = googlemaps.Client(key='AIzaSyADQUIDM3-oA6tQcjA4T_ZQ-Uvw_XPZg98')
+gmaps = googlemaps.Client(key='')
 
 carbon_emission_rate = 0.5
 def calculate_emissions(route_length_km, carbon_emission_rate):
